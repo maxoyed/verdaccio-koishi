@@ -1,6 +1,6 @@
 {
   "name": "verdaccio-koishi",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "description": "koishi market registry middleware for verdaccio",
   "main": "lib/src/index.js",
   "types": "lib/src/index.d.ts",

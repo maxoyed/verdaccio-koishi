@@ -123,7 +123,7 @@ export default class VerdaccioMiddlewarePlugin
                 pack.package.name,
                 pack.package["dist-tags"].latest,
                 pack.package.description,
-                pack.package.time.modified
+                pack.package?.time?.modified ?? (new Date()).toJSON()
               )
             );
             resp_koishi_json.total += 1;
